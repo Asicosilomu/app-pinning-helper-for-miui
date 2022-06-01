@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Welcome to App Pinning Helper for MIUI! This app exploits some API features to get your beloved app pinning back on MIUI as nobody intended it be."
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="To get started, open the recent apps view, click on Floating windows, click the Edit icon, add this app to the list then launch it in a floating window."
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Now, while this app is in freeform, open the app you would like to pin in fullscreen, then press the button below. When the 'App is pinned' confirmation screen appears, click the GOT IT button to pin the app. Once startLockTask is accepted, this app closes and the one in the background remains pinned."
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DISCLAIMERS:"
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="- If you're using Gesture navigation, please disable it, otherwise you will need to reboot your device to unpin."
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="- Don't, and absolutely DO NOT click 'No thanks' on the confirmation dialog. This will cause the app to freeze as I'm a terrible programmer."
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="- For some reason, the unpin gesture (press back and overview together) doesn't seem to work in landscape (at least on MIUI 13). Make sure if you pin a game you have a way to exit to launcher or change to portrait."
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="20dp"/>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"/>
+    <Button
+        android:id="@+id/dothethingy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="JUST LET ME PIN MY FUCKING APPS STUPID BLOATED PIECE OF SOFTWARE!" />
+
+</LinearLayout>
